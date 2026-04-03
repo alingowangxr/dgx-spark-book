@@ -84,6 +84,7 @@ export default defineConfig({
             { text: '第 23 章：CUDA-X 與 JAX', link: '/guide/chapter23/' },
             { text: '第 24 章：開發環境與 AI 輔助', link: '/guide/chapter24/' },
             { text: '第 25 章：多機互連', link: '/guide/chapter25/' },
+            { text: '第 26 章：綜合實戰：企業級 RAG', link: '/guide/chapter26/' },
           ],
         },
         {

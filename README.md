@@ -129,6 +129,7 @@ npm run preview    # 預覽建置結果
 | [第 23 章](docs/guide/chapter23/index.md) | CUDA-X 資料科學、JAX 與特殊領域應用 |
 | [第 24 章](docs/guide/chapter24/index.md) | 開發環境與 AI 輔助程式開發 |
 | [第 25 章](docs/guide/chapter25/index.md) | 多機互連與分散式運算 |
+| [第 26 章](docs/guide/chapter26/index.md) | 綜合實戰：企業級 RAG 知識庫系統 |
 
 ### 附錄
 - [附錄 A](docs/guide/appendix-a/index.md)：Claude Code 常用指令速查表

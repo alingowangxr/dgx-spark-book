@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -roh 'id=\"s[0-9]*_[0-9]*\"' /c/Users/szmik/dxg-site/ch*.html)",
+      "Bash(ls /c/Users/szmik/dxg-site/*.html)",
+      "Bash(python:*)"
+    ]
+  }
+}
