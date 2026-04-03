@@ -4,6 +4,7 @@
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 [![VitePress](https://img.shields.io/badge/Built%20with-VitePress-6c5ce7)](https://vitepress.dev/)
+[![GitHub Pages](https://img.shields.io/badge/Deployed%20on-GitHub%20Pages-22863a)](https://alingowangxr.github.io/dgx-spark-book/)
 [![Stars](https://img.shields.io/github/stars/alingowangxr/dgx-spark-book?style=social)](https://github.com/alingowangxr/dgx-spark-book)
 
 ---
@@ -20,7 +21,8 @@
 | 🖥️ **128GB 統一記憶體** | 體驗消費級 GPU 做不到的事：跑 120B 模型、微調 FLUX、預訓練小模型 |
 | 🤖 **Claude Code 輔助** | 用 AI 寫 AI，自然語言就能完成複雜部署 |
 | 📊 **實測數據** | 所有效能數據都是實際跑出來的 |
-| 🔄 **25 章完整內容** | 從硬體到多機叢集，涵蓋所有實用場景 |
+| 📚 **25 章完整內容** | 從硬體到多機叢集，涵蓋所有實用場景 |
+| 🔄 **持續更新** | 社群驅動，跟上最新的模型與工具 |
 
 ### 🎯 適合誰讀
 
@@ -31,17 +33,23 @@
 
 ---
 
-## 🚀 快速開始
+## 🌐 線上閱讀
 
-### 線上閱讀
+**👉 [立即開始閱讀](https://alingowangxr.github.io/dgx-spark-book/)**
 
-直接瀏覽線上版本（推薦）：
+網站已部署在 GitHub Pages，無需安裝，直接在瀏覽器中閱讀！
 
-```
-npm run dev
-```
+支援：
+- 🔍 全文搜尋
+- 📱 手機/平板/桌面響應式設計
+- 🌙 暗色模式
+- 📑 側邊欄導航
 
-### 本地部署
+---
+
+## 🚀 本地部署
+
+如果你想在本機運行或貢獻內容：
 
 ```bash
 # 1. 複製專案
@@ -136,26 +144,29 @@ npm run preview    # 預覽建置結果
 
 ```
 dgx-spark-book/
+├── .github/
+│   └── workflows/
+│       └── deploy.yml           # GitHub Actions 自動部署
 ├── docs/
 │   ├── .vitepress/
-│   │   ├── config.ts          # VitePress 設定
-│   │   └── theme/             # 自訂主題
+│   │   ├── config.ts            # VitePress 設定
+│   │   └── theme/               # 自訂主題
 │   │       ├── index.ts
-│   │       └── style.css      # 活潑教學風樣式
+│   │       └── style.css        # 活潑教學風樣式
 │   ├── guide/
-│   │   ├── chapter1/          # 第 1 章
-│   │   ├── chapter2/          # 第 2 章
+│   │   ├── chapter1/            # 第 1 章
+│   │   ├── chapter2/            # 第 2 章
 │   │   ├── ...
-│   │   ├── chapter25/         # 第 25 章
-│   │   ├── appendix-a/        # 附錄 A
-│   │   ├── appendix-b/        # 附錄 B
-│   │   ├── appendix-c/        # 附錄 C
-│   │   ├── appendix-e/        # 附錄 E
-│   │   ├── models.md          # 推薦模型清單
-│   │   └── faq.md             # 常見問題
+│   │   ├── chapter25/           # 第 25 章
+│   │   ├── appendix-a/          # 附錄 A
+│   │   ├── appendix-b/          # 附錄 B
+│   │   ├── appendix-c/          # 附錄 C
+│   │   ├── appendix-e/          # 附錄 E
+│   │   ├── models.md            # 推薦模型清單
+│   │   └── faq.md               # 常見問題
 │   ├── public/
-│   │   └── logo.svg           # 網站 Logo
-│   └── index.md               # 首頁
+│   │   └── logo.svg             # 網站 Logo
+│   └── index.md                 # 首頁
 ├── package.json
 └── README.md
 ```
@@ -165,8 +176,21 @@ dgx-spark-book/
 ## 🛠️ 技術棧
 
 - **[VitePress](https://vitepress.dev/)** — 靜態網站生成器
+- **[GitHub Actions](https://github.com/features/actions)** — 自動部署到 GitHub Pages
 - **[Markdown](https://daringfireball.net/projects/markdown/)** — 內容撰寫格式
 - **自訂主題** — 活潑教學風（漸層色彩、提示框、表格美化）
+
+---
+
+## 📊 專案統計
+
+| 項目 | 數值 |
+|------|------|
+| 總行數 | 20,000+ 行 |
+| 章節數 | 25 章 + 4 個附錄 |
+| 程式碼範例 | 500+ 個 |
+| 表格 | 100+ 個 |
+| 疑難排解 Q&A | 50+ 個 |
 
 ---
 
@@ -179,7 +203,7 @@ dgx-spark-book/
 - **改編** — 修改、轉換或以本作品為基礎進行創作
 
 只要你遵守以下條件：
-- **署名** — 給予適當的credit
+- **署名** — 給予適當的 credit
 - **相同方式分享** — 如果你改編本作品，必須以相同授權條款發行
 
 ---
