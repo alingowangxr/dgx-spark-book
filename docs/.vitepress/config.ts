@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'DGX Spark 玩透指南',
   description: '個人 AI 超級電腦全面實戰 — 從開箱到 AI Agent，一步一步打造你的個人 AI 工作站',
-  base: '/',
+  base: '/dgx-spark-book/',
   lang: 'zh-TW',
   lastUpdated: true,
   cleanUrls: true,
