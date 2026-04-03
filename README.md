@@ -1,6 +1,6 @@
-# 🔥 塞爆 128G GPU 記憶體 — Nvidia DGX Spark 全面玩透
+# 🔥 DGX Spark 玩透指南 — 個人 AI 超級電腦全面實戰
 
-> 影音圖生成、微調、預訓練、Agent — 小白也能輕鬆上手的線上教學書
+> 從開箱到 AI Agent，一步一步打造你的個人 AI 工作站
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 [![VitePress](https://img.shields.io/badge/Built%20with-VitePress-6c5ce7)](https://vitepress.dev/)

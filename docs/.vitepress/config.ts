@@ -1,8 +1,8 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: '塞爆 128G GPU 記憶體',
-  description: 'Nvidia DGX Spark 影音圖生成、微調、預訓練 Agent 全面玩透 — 小白友善線上教學書',
+  title: 'DGX Spark 玩透指南',
+  description: '個人 AI 超級電腦全面實戰 — 從開箱到 AI Agent，一步一步打造你的個人 AI 工作站',
   base: '/',
   lang: 'zh-TW',
   lastUpdated: true,
@@ -117,7 +117,7 @@ export default defineConfig({
 
     footer: {
       message: '以 CC BY-SA 4.0 授權釋出',
-      copyright: '塞爆 128G GPU 記憶體 — DGX Spark 小白教學書',
+      copyright: 'DGX Spark 玩透指南 — 個人 AI 超級電腦全面實戰',
     },
 
     search: {

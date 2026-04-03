@@ -1,9 +1,9 @@
 ---
 layout: home
 hero:
-  name: "塞爆 128G GPU 記憶體"
-  text: "Nvidia DGX Spark 全面玩透"
-  tagline: 影音圖生成、微調、預訓練、Agent — 小白也能輕鬆上手
+  name: "DGX Spark 玩透指南"
+  text: "個人 AI 超級電腦全面實戰"
+  tagline: 從開箱到 AI Agent，一步一步打造你的個人 AI 工作站
   image:
     src: /logo.svg
     alt: DGX Spark
