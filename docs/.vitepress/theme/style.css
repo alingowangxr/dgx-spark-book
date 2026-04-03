@@ -1,0 +1,98 @@
+/* 活潑教學風主題 */
+
+:root {
+  --vp-c-brand-1: #6c5ce7;
+  --vp-c-brand-2: #a29bfe;
+  --vp-c-brand-3: #dfe6e9;
+  --vp-c-brand-soft: rgba(108, 92, 231, 0.14);
+
+  --vp-c-green: #00b894;
+  --vp-c-green-light: #55efc4;
+  --vp-c-yellow: #fdcb6e;
+  --vp-c-red: #e17055;
+  --vp-c-blue: #74b9ff;
+
+  --vp-font-family-base: 'Noto Sans TC', 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --vp-font-family-mono: 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, monospace;
+
+  --vp-home-hero-name-color: linear-gradient(135deg, #6c5ce7 0%, #fd79a8 50%, #fdcb6e 100%);
+}
+
+/* 首頁大標題漸層 */
+.VPHero .name {
+  background: linear-gradient(135deg, #6c5ce7 0%, #fd79a8 50%, #fdcb6e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* 提示框增強 */
+.custom-block.tip {
+  border-color: #6c5ce7;
+  background-color: rgba(108, 92, 231, 0.08);
+}
+
+.custom-block.warning {
+  border-color: #fdcb6e;
+  background-color: rgba(253, 203, 110, 0.1);
+}
+
+.custom-block.danger {
+  border-color: #e17055;
+  background-color: rgba(225, 112, 85, 0.08);
+}
+
+/* 程式碼區塊 */
+.vp-doc div[class*='language-'] {
+  border-radius: 12px;
+  margin: 1.5em 0;
+}
+
+.vp-doc div[class*='language-']::before {
+  content: '';
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #e17055;
+  box-shadow: 20px 0 0 #fdcb6e, 40px 0 0 #00b894;
+}
+
+/* 表格美化 */
+.vp-doc table {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.vp-doc thead {
+  background: linear-gradient(135deg, #6c5ce7, #a29bfe);
+  color: white;
+}
+
+.vp-doc th {
+  color: white !important;
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+/* 標題 emoji 間距 */
+.vp-doc h1, .vp-doc h2, .vp-doc h3 {
+  margin-top: 2em;
+}
+
+/* 側邊欄活躍項目 */
+.VPSidebarItem.level-1.is-active > .item > .indicator {
+  background-color: #6c5ce7;
+}
+
+/* 搜尋框 */
+.DocSearch-Button {
+  border-radius: 10px;
+}
+
+/* 響應式 */
+@media (max-width: 768px) {
+  .VPHero .name {
+    font-size: 36px !important;
+  }
+}

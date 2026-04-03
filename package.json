@@ -1,0 +1,17 @@
+{
+  "name": "dgx-spark-book",
+  "version": "1.0.0",
+  "description": "塞爆 128G GPU 記憶體 - Nvidia DGX Spark 小白教學書",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "keywords": ["dgx-spark", "nvidia", "ai", "tutorial"],
+  "author": "",
+  "license": "CC-BY-SA-4.0",
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
