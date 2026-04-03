@@ -105,7 +105,7 @@ docker run -d \
 「DGX Spark 搭載 128GB 記憶體...」（模糊、可能不準確）
 
 有 RAG 的回答：
-「根據 DGX Spark 技術規格書第 12 頁，記憶體頻寬為 273 GB/s，
+「根據 DGX Spark 技術規格書第 12 頁，記憶體頻寬為 400 GB/s，
 採用 LPDDR5x 規格，透過 NVLink-C2C 與 CPU/GPU 連接。」
 ```
 

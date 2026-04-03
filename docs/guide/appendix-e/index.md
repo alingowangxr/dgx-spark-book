@@ -14,7 +14,7 @@
 | GPU | Blackwell 架構 | 5 世代 Tensor Core |
 | Tensor Core | 第 5 代 | 支援 FP4/FP8/BF16/FP16 |
 | 統一記憶體 | 128 GB LPDDR5x | CPU/GPU 共享記憶體架構 |
-| 記憶體頻寬 | ~273 GB/s | 高頻寬設計 |
+| 記憶體頻寬 | ~400 GB/s | 高頻寬設計 |
 | 製程 | 4nm TSMC | 先進製程技術 |
 | 運算能力（FP4） | 1 PFLOP | 1000 TFLOPS |
 | 運算能力（FP8） | 0.5 PFLOP | 500 TFLOPS |
@@ -81,7 +81,7 @@
 |------|------|------|
 | 記憶體類型 | LPDDR5x | 低功耗高效能 |
 | 記憶體容量 | 128 GB | CPU/GPU 統一記憶體 |
-| 記憶體頻寬 | ~273 GB/s | 高頻寬設計 |
+| 記憶體頻寬 | ~400 GB/s | 高頻寬設計 |
 | 記憶體位元寬度 | 256-bit | 高效資料傳輸 |
 | 記憶體時脈 | ~8533 MHz | 高速時脈 |
 
@@ -271,7 +271,7 @@
 | Llama 3.1 70B | INT8 | ~70 GB | ✅ | ❌ | ❌ |
 | Llama 3.1 70B | INT4 | ~35 GB | ✅ | ✅ | ✅ |
 | Qwen 2.5 72B | FP16 | ~144 GB | ❌ | ❌ | ❌ |
-| Qwen 2.5 72B | INT4 | ~36 GB | ✅ | ✅ | ✅ |
+| Qwen 3 72B | INT4 | ~36 GB | ✅ | ✅ | ✅ |
 | Mixtral 8x7B | FP16 | ~112 GB | ✅ | ❌ | ❌ |
 | Mixtral 8x7B | INT4 | ~28 GB | ✅ | ✅ | ✅ |
 
@@ -339,5 +339,5 @@
 ---
 
 ::: info 📝 返回
-← [回到附錄 D](/guide/appendix-d/) | [首頁](/)
+← [回到附錄 C](/guide/appendix-c/) | [首頁](/)
 :::

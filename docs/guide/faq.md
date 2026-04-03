@@ -838,7 +838,7 @@ sudo netplan apply
 | 模型類型 | 推薦模型 | 記憶體需求 | 效能 |
 |---------|---------|-----------|------|
 | 對話 LLM | Llama 3.1 8B | 4-16 GB | ⭐⭐⭐⭐⭐ |
-| 對話 LLM | Qwen 2.5 7B | 4-16 GB | ⭐⭐⭐⭐⭐ |
+| 對話 LLM | Qwen 3 8B | 4-16 GB | ⭐⭐⭐⭐⭐ |
 | 對話 LLM | Llama 3.1 70B (INT4) | 35-40 GB | ⭐⭐⭐⭐ |
 | 程式碼 LLM | DeepSeek-Coder 6.7B | 4-14 GB | ⭐⭐⭐⭐⭐ |
 | 視覺語言模型 | LLaVA 7B | 14-16 GB | ⭐⭐⭐⭐ |
@@ -876,7 +876,7 @@ sudo netplan apply
 - [首頁](/)
 - [第 1 章：DGX Spark 硬體總覽](/guide/chapter1/)
 - [推薦模型清單](/guide/models)
-- [附錄 A：縮寫與術語表](/guide/appendix-a/)
+- [附錄 A：Claude Code 常用指令速查表](/guide/appendix-a/)
 - [附錄 B：Playbook 對照表](/guide/appendix-b/)
 - [附錄 E：硬體規格速查表](/guide/appendix-e/)
 :::
